@@ -1,0 +1,199 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    width:100%;
+    margin-top: 0px;
+    background-color:white;
+    opacity: 0.8;
+}
+
+nav ul {
+    overflow: hidden;
+    margin-left: 20px;
+}
+
+nav ul li {
+    margin-top: 3px;
+    padding: 20px;
+    height: 5px;
+    float: left;
+    list-style: none;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.4em;
+}
+
+
+main {
+    max-width: 980px;
+    margin: 50px auto;
+}
+
+h1{
+    margin-left: 30%;
+}
+
+.imagen_con_titulo {
+    position: relative;
+    width: 100%;
+}
+
+h2, p {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 30px; 
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 20px;   
+}
+
+h2 {
+    
+    margin-top: 100px;
+}
+
+.imagen_con_titulo h2 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;  
+    margin-top: 2%;
+    color: #ffffff;
+}
+.imagen_que {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 50%; /* para que el texto se me ajuste a la imagen y no se salga*/
+    overflow: hidden;
+}
+
+.imagen_que img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.texto_sobre_imagen {
+    position: absolute;
+    top: 5%;
+    left: 60%;
+    bottom: 20%;
+    color: #000000;
+    max-width: 90%; 
+}
+
+.texto_sobre_imagen h3 {
+    font-size: 2vw; 
+}
+
+.texto_sobre_imagen p {
+    font-size: 1.5vw; 
+    margin-top: 10%; /*poniendolo en % hago que cuando lo vea en un dispositivo movil, que no se salga si no se adapte*/
+    margin-bottom: 10%;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+
+
+.imagen1 {
+    width: 100%;  
+}
+
+.caja, .caja1 {
+   
+    display: flex;
+    border: 0px ;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.caja {
+    background-color: #ffffff;
+    margin-bottom: 100px;
+}
+
+.caja1 {
+    background-color: #c7defc;
+    margin-top: 20px;
+}
+
+.imagen {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.imagen img {
+    height: 400px;
+    flex: 1 ;
+    margin: 0px;
+    display: block;
+}
+
+.texto {
+    flex: 1 ;
+    margin: 0;
+    padding: 0;
+}
+
+.texto h4, .normal h4, .normal p,.normal1 p {
+    font-size: 18px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin: 30px;
+    color: #000000;
+    display: block;
+}
+.normal p {
+    font-size: 18px;
+    position: relative; /* Establecer la posición relativa para el elemento p */
+}
+
+.normal p::before {
+    content: "\2022"; /* pa poner el punto de separacion*/
+    margin-right: 5px; 
+}
+
+.normal h2 {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 40px; 
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.normal1 h2 {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 40px; 
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+footer .p{
+    font-size: 20px;
+}
+footer {
+    clear: both;
+    margin-top: 10px;
+    font-size: 1em;
+    padding: 0.5em;
+    background-color: rgba(0, 0, 0, 0.205);
+    color: rgb(0, 0, 0);
+    
+}
+
+
